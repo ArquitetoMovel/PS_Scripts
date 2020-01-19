@@ -4,6 +4,7 @@ $caminho_arquivos = "/Users/alexandre/Developer"
 #palavra a ser procurado dentro de cada arqiuvo retornado pelo comando Get-ChildItem
 #$chave = "post"
 #comandos
+#git v1
 foreach ($resultado in 
     (Get-ChildItem -Path $caminho_arquivos -Filter "*.csproj" -Recurse)) {
 
